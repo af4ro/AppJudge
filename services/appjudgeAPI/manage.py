@@ -78,7 +78,7 @@ def seedDB():
     db.session.add(Question(question='Where was it?', max_score=5, event_id=2))
 
     db.session.add(Judge(username='af4ro', name="anshul", job_title="Software Developer", password="some",
-     event_id=1, team_list=[], question_list=[1,3,5]))
+     event_id=1, team_list=[1, 2, 3], question_list=[1,3,5]))
     db.session.add(Judge(username='vrustagi', name="vatsal", job_title="Software Developer", password="some",
     event_id=1, team_list=[], question_list=[1,3,5]))
     db.session.add(Judge(username='af4ro1', name="anshul", job_title="Software Developer", password="some",
